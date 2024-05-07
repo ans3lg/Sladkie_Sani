@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
+@font-face {
+  font-family: "proximanovareg";
+  src: url(../../font/proximanova_regular.ttf);
+}
+@font-face {
+  font-family: "proximanovablack";
+  src: url(../../font/proximanova_black.otf);
+}
+@font-face {
+  font-family: "Celestina";
+  src: url(../../font/Celestina.otf);
+}
+@font-face {
+    font-family: "proximanovalight";
+    src: url(../../font/proximanova_light.otf);
+}
+@font-face {
+    font-family: "proximanovaextrabold";
+    src: url(../../font/proximanova_extrabold.otf);
+}
+@font-face {
+    font-family: "proximanovabold";
+    src: url(../../font/proximanova_bold.otf);
+}
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
