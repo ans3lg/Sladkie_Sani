@@ -201,10 +201,15 @@ body {
 /* TOVAR HIT (ХИТ ПРОДАЖ) */
 
 .tovar_hit_container {
-  
+  background-image:url(../../file/i_pic/index_tovar_hit_bg.jpg);
 }
-.tovar_hit_container .tovar_hit h1 {
+.tovar_hit h1 {
   text-align: center;
   font-size: 43px;
   font-family: "proximanovareg";
+  padding: 60px 0;
+}
+
+.card a{
+  padding: 30px 20px 23px;
 }
