@@ -140,68 +140,68 @@ body {
   margin-top: 13px;
 }
 
-.index_category_list_item_photo{
-    position:absolute;
-    right:3%;
-    bottom:3.5%;
-    z-index:10;
+.index_category_list_item_photo {
+  position: absolute;
+  right: 3%;
+  bottom: 3.5%;
+  z-index: 10;
 }
 
-.index_category_list_item_photo img{
-    max-width:100%;
-    height:auto;
-    vertical-align:top;
+.index_category_list_item_photo img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
 }
 
 /* category 2 */
 
-.category_id[data-id="2"] .category_text_2 p{
-    color:#255484;
+.category_id[data-id="2"] .category_text_2 p {
+  color: #255484;
 }
-.category_id[data-id="2"] .category_cont .category_price p{
-    background:#62b8ec;
+.category_id[data-id="2"] .category_cont .category_price p {
+  background: #62b8ec;
 }
-.category_id[data-id="2"] .index_category_list_item_photo{
-    right:9%;
-    bottom:8%;
+.category_id[data-id="2"] .index_category_list_item_photo {
+  right: 9%;
+  bottom: 8%;
 }
 
 /* category 3 */
 
-.category_id[data-id="3"]{
-    width:38%;
+.category_id[data-id="3"] {
+  width: 38%;
 }
-.category_id[data-id="3"] .category_text_2 p{
-    color:#6d4171;
+.category_id[data-id="3"] .category_text_2 p {
+  color: #6d4171;
 }
 .category_id[data-id="3"] .category_cont .category_price p {
-    background:#be80ce;
+  background: #be80ce;
 }
-.category_id[data-id="3"] .index_category_list_item_photo{
-    right:6.5%;
-    bottom:6.5%;
+.category_id[data-id="3"] .index_category_list_item_photo {
+  right: 6.5%;
+  bottom: 6.5%;
 }
 
 /* category 4 */
 
-.category_id[data-id="4"]{
-    width:62%;
+.category_id[data-id="4"] {
+  width: 62%;
 }
-.category_id[data-id="4"] .category_text_2 p{
-    color:#564b43;
+.category_id[data-id="4"] .category_text_2 p {
+  color: #564b43;
 }
-.category_id[data-id="4"] .category_cont .category_price p{
-    background:#fc7f31;
+.category_id[data-id="4"] .category_cont .category_price p {
+  background: #fc7f31;
 }
-.category_id[data-id="4"] .index_category_list_item_photo{
-    right:6.5%;
-    bottom:1.5%;
+.category_id[data-id="4"] .index_category_list_item_photo {
+  right: 6.5%;
+  bottom: 1.5%;
 }
 
 /* TOVAR HIT (ХИТ ПРОДАЖ) */
 
 .tovar_hit_container {
-  background-image:url(../../file/i_pic/index_tovar_hit_bg.jpg);
+  background-image: url(../../file/i_pic/index_tovar_hit_bg.jpg);
 }
 .tovar_hit h1 {
   text-align: center;
@@ -210,6 +210,33 @@ body {
   padding: 60px 0;
 }
 
-.card a{
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 52px;
+  max-width: 1440px;
+  margin: 0 auto;
+  line-height: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.card a {
+  text-decoration: none;
   padding: 30px 20px 23px;
+}
+
+.card {
+  background: #ffffff;
+  text-align: center;
+}
+
+.present p {
+  font-size: 21px;
+  line-height: 1;
+  color: #000;
+}
+
+.image img {
+  width: 150px;
 }
