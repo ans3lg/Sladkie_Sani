@@ -223,7 +223,7 @@ body {
 }
 
 .card {
-  width: 350px;
+  width: 360px;
   box-shadow: none;
   transition: box-shadow 0.1s ease-out 0s, background-color 0.3s ease-out 0s;
   padding: 30px 20px 23px 20px;
