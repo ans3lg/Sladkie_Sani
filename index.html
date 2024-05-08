@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/font/style.css">
     <link rel="stylesheet" href="./css/header/style.css">
     <link rel="stylesheet" href="./css/main/style.css">
+    <link rel="stylesheet" href="./css/footer/style.css">
     <link rel="SHORTCUT ICON" href="favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -18,6 +19,16 @@
 
 <body>
     <div class="container">
+
+        <div id="popup" class="popup" onclick="closePopup(event)">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup(event)">&times;</span>
+                <h2>Подбор подарка</h2>
+                <p class="popup_text">Для подбора подарка перейдите по ссылке на наш телеграм-бот</p>
+                <a href="ссылка_на_телеграм_бот" class="telegram-button">Телеграм-бот</a>
+            </div>
+        </div>
+
         <!-- HEADER 1 -->
         <div class="header_1_fixed_space"></div>
         <div class="header_1">
@@ -84,8 +95,9 @@
             <div class="header2_right">
                 <div class="header2_right_cont">
                     <div class="header2_right_podbor">
-                        <a href="index.html#" class="commeronline_action header2_right_podbor_button"
-                            data-commeronline-zagol1="Запросить коммерческое предложение" data-commeronline-zagol2="">
+                        <a href="index.html#" class="commeronline_action header2_right_podbor_button" id="popupBtn"
+                            onclick="openPopup()" data-commeronline-zagol1="Запросить коммерческое предложение"
+                            data-commeronline-zagol2="">
                             <span>Подобрать подарок</span>
                         </a>
                     </div>
@@ -484,6 +496,20 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function openPopup() {
+            document.getElementById("popup").style.display = "block";
+        }
+
+        function closePopup(event) {
+            // Проверяем, был ли клик по popup-окну или его содержимому
+            if (event.target === document.getElementById("popup") || event.target.classList.contains("close")) {
+                document.getElementById("popup").style.display = "none";
+            }
+        }
+
+    </script>
 </body>
 
 </html>
