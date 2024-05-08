@@ -153,24 +153,32 @@
     align-self: center;
     align-items: center;
 }
+
+
+/* CARDS */
 a.subtitle{
     font-family: "proximanovalight";
     text-decoration: none;
     font-size: 35px;
     color: #000;
+    margin-top: 30px;
 }
 
-/* CARDS */
-
-.cards {
+.cards_pod {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 100px;
+    gap: 52px;
+    max-width: 1440px;
+    margin: 0 auto;
+    line-height: 1;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
 }
+
 .card {
-    width: 400px;
-    height: 650px;
+    width: 350px;
+    /* height: 650px; */
     box-shadow: none;
     transition: box-shadow 0.1s ease-out 0s, background-color 0.3s ease-out 0s;
     padding: 30px 20px 23px 20px;
@@ -182,13 +190,13 @@ a.subtitle{
     align-items: center;
     margin-top: 25px;
     position: relative;
-}
-.card img {
+  }
+  .card img {
     width: 148px;
     height: 195px;
     margin: 20px 0;
-}
-.card .izbran {
+  }
+  /* .card .izbran svg {
     border-radius: 50%;
     border: 1px solid;
     padding: 10px;
@@ -201,41 +209,68 @@ a.subtitle{
     position: absolute;
     top: 20px;
     right: 20px;
-}
-.close_ceil {
-    font-family: "proximanovareg";
-    font-size: 20px;
-    text-transform: uppercase;
-    padding: 15px;
-    background: #cf1818;
-    color: #ffffff;
-    opacity: 0.9;
-    width: 200px;
-    text-align: center;
-    margin-top: -80px;
-    border-radius: 30px;
-}
-.card .izbran:hover svg {
+  }
+  .card .izbran:hover svg {
     fill: #d96f6f;
-}
-.card p {
+  } */
+  
+  .card .heart,
+  .card .heart *{
+      transition:all 0.06s ease-out 0s;
+  }
+  
+  .card .heart{
+    position:absolute;
+    z-index:30;
+    top:35px;
+    right:35px;
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    overflow:hidden;
+    background:#e6e6e6;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+  }
+  
+  .izbran{
+    display:inline-flex;
+    vertical-align:top;
+  }
+  .izbran svg{
+    vertical-align:top;
+  }
+  .card .heart:hover svg path{
+    fill:#cf2733;
+  }
+  .card .heart.active{
+    background:#cf2430;
+  }
+  .card .heart.active svg path{
+    fill:#fff!important;
+  }
+  
+  
+  .card p {
     font-family: "proximanovalight";
     font-size: 21px;
-}
-.card h3 {
+  }
+  .card h3 {
     font-family: "proximanovabold";
     font-size: 32px;
     margin-bottom: 40px;
-}
-.card span.myag {
+  }
+  .card span.myag {
     font-size: 16px;
     line-height: 1.1;
     font-family: "proximanovareg";
     color: #5db7b9;
     text-align: center;
     margin-top: 9px;
-}
-.korzina_btn {
+  }
+  .korzina_btn {
     text-decoration: none !important;
     position: relative;
     text-align: left;
@@ -252,20 +287,20 @@ a.subtitle{
     outline: 0;
     margin: 0;
     -webkit-appearance: none;
-}
-.korzina_btn svg {
+  }
+  .korzina_btn svg {
     width: 32px;
     height: 32px;
     fill: #fff;
-}
-.cennik {
+  }
+  .cennik {
     display: flex;
     align-items: center;
     gap: 10px;
     justify-content: center;
     margin-top: 20px;
-}
-.cennik .cena {
+  }
+  .cennik .cena {
     text-align: left;
     white-space: nowrap;
     position: relative;
@@ -273,8 +308,8 @@ a.subtitle{
     line-height: 1;
     font-family: "Roboto";
     color: #000;
-}
-.vnytri {
+  }
+a.vnytri {
     display: inline-flex;
     vertical-align: top;
     height: 42px;
@@ -296,5 +331,5 @@ a.subtitle{
     -webkit-appearance: none;
     text-decoration: none !important;
     border-radius: 20px;
-    margin-top: auto;
+    margin-top: 30px;
 }
