@@ -1,0 +1,83 @@
+.basket_table_title {
+    display: flex;
+    justify-content: space-between;
+}
+.basket_table_title td{
+    border-bottom: 1px #ccc solid;
+
+    padding: 10px;
+}
+.basket_table_title thead tr td.name {
+    width: 790px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1;
+    color: #666;
+}
+.basket_table_title tbody tr td.basket_tovar {
+    width: 790px;
+    
+}
+.basket_table_title thead tr td.kol  {
+    width: 120px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1;
+    color: #666;
+}
+.basket_table_title tbody tr td.basket_kol-vo_tovar  {
+    width: 120px;
+}
+.basket_table_title thead tr td.cennik  {
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1;
+    color: #666;
+}
+.basket_table_title tbody tr td.basket_cena_tovar  {
+    width: 150px;
+    font-size: 22px;
+    line-height: 1;
+}
+.basket_table_title thead tr td.stoimost  {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1;
+    color: #666;
+}
+.basket_table_title tbody tr td.stoimost  {
+    width: 170px;
+    font-size: 22px;
+    line-height: 1;
+}
+thead {
+    width: 100%;
+}
+tbody {
+    width: 100%;
+}
+td.basket_tovar img {
+    width: 100px;
+    height: 132px;
+}
+.basket_table_title {
+    display: flex;
+    flex-direction: column;
+
+}
+.basket_kol-vo_tovar form input {
+    width: 70px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px #949494 solid;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    outline: 0;
+}

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/header/style.css">
     <link rel="stylesheet" href="./css/main/style.css">
     <link rel="stylesheet" href="./css/footer/style.css">
+    <link rel="stylesheet" href="./css/media_sceen/style.css">
     <link rel="SHORTCUT ICON" href="favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -31,23 +32,47 @@
             </div>
         </div>
 
+        <div id="menu" class="menu">
+            <div class="menu-header">
+                <div class="btn_close_menu">
+                    _____________________________
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active" data-id="1"><a href="./index.html">Главная</a></li>
+                    <li data-id="225"><a href="./pages/about.html">О компании</a></li>
+                    <li data-id="238"><a href="./pages/podarki.html">Подарки</a></li>
+                    <li data-id="226"><a href="./pages/contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
         <!-- HEADER 1 -->
         <div class="header_1_fixed_space"></div>
         <div class="header_1">
             <div class="cmsl_wrapper1 header_1_inner header_container">
+                <div class="btn_media_header">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                    </svg>
+                </div>
                 <div class="header_1_menu">
                     <ul>
-                        <li class="active" data-id="1"><a href="index.html">Главная</a></li>
-                        <li data-id="225"><a href="o-kompanii/index.html">О компании</a></li>
-                        <li data-id="238"><a href="podarki/index.html">Подарки</a></li>
-                        <li data-id="239"><a href="podarki/korporativnye-podarki/index.html">Подарки для взрослых</a>
+                        <li class="active" data-id="1"><a href="./index.html">Главная</a></li>
+                        <li data-id="225"><a href="./pages/about.html">О компании</a></li>
+                        <li data-id="238"><a href="./pages/podarki.html">Подарки</a></li>
+                        <!-- НАДО ПОДУМАТЬ так как в шапке фильтр каталога -->
+                        <!-- <li data-id="239"><a href="podarki/korporativnye-podarki/index.html">Подарки для взрослых</a>
                         </li>
-                        <li data-id="241"><a href="iskusstvennie-eli/index.html">Искусственные ели</a></li>
-                        <li data-id="226"><a href="kontakti/index.html">Контакты</a></li>
+                        <li data-id="241"><a href="iskusstvennie-eli/index.html">Искусственные ели</a></li> -->
+                        <!-- НАДО ПОДУМАТЬ -->
+                        <li data-id="226"><a href="./pages/contacts.html">Контакты</a></li>
                     </ul>
                 </div>
 
-                <a href="podarki/favorite/index.html"
+                <a href="./pages/favorite.html"
                     class="header_1_favorite catalog_favorite_tovar_dataget_isset_condition ">
                     <div class="header_1_favorite_icon"><svg width="27" height="25" xmlns="http://www.w3.org/2000/svg"
                             xmlns:svg="http://www.w3.org/2000/svg">
@@ -65,7 +90,7 @@
                 <div class="header_1_basket">
                     <div class="header_1_basket_cont">
                         <div class="header_1_basket_left">
-                            <a href="podarki/basket/index.html">
+                            <a href="./pages/basket.html">
                                 <div class="header_1_basket_count">
                                     <span class="header_1_basket_count_value catalog__basket_dataget_kolvo">0</span>
                                 </div>
@@ -75,7 +100,7 @@
                             </a>
                         </div>
                         <div class="header_1_basket_name">
-                            <a href="podarki/basket/index.html">Оформить заказ</a>
+                            <a href="./pages/basket.html">Оформить заказ</a>
                         </div>
                     </div>
                 </div>
@@ -511,6 +536,21 @@
             }
         }
 
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var btnMediaHeader = document.querySelector('.btn_media_header');
+            var menu = document.getElementById('menu');
+            var btnCloseMenu = document.querySelector('.btn_close_menu');
+
+            btnMediaHeader.addEventListener('click', function () {
+                menu.classList.toggle('active');
+            });
+
+            btnCloseMenu.addEventListener('click', function () {
+                menu.classList.remove('active');
+            });
+        });
     </script>
 </body>
 

@@ -412,6 +412,7 @@ body {
 
 .why_we {
   max-width: 1715px;
+  margin: 0 auto;
   flex: 1;
 }
 

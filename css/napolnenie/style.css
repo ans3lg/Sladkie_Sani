@@ -1,0 +1,239 @@
+/* НАПОЛНЕНИЕ ПОДАРКА */
+
+.cont_napolnenie {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.card_tovar_general_info {
+    display: flex;
+    box-shadow: 0 0px 8px 1px rgba(0,0,0,0.14), 0 0px 2px 0px rgba(0,0,0,0.14);
+    margin-top: 45px;
+}
+.photo_tovar_general_info {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 480px;
+}
+.photo_tovar_general_info .lupa{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+.photo_tovar_general_info .fon_tovar {
+    width: 300px;
+    height: 300px;
+}
+.photo_tovar_general_info .tovar_img {
+    width: 223px;
+    height: 294px;
+    margin-top: -250px;
+    margin-left: 200px;
+}
+
+.title_tovar_general_info {
+    flex: 1;
+    margin-left: 60px;
+    padding: 50px 0;
+}
+.title_tovar_general_info p.subtitle {
+    font-size: 29px;
+    line-height: 1;
+    color: #000;
+    font-family: "proximanovareg";
+}
+.title_tovar_general_info h2.title {
+    font-size: 48px;
+    line-height: 0.9;
+    font-family: "proximanovabold";
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+.title_tovar_general_info p.subtile_info {
+    font-size: 19px;
+    font-family: "proximanovalight";
+}
+.title_tovar_general_info .kol-vo_tovar {
+    display: flex;
+    gap: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px #5db7b9 solid;
+    width: 180px;
+    height: 55px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+#minus, #plus {
+    border: 0;
+    outline: 0;
+    font-size: 30px;
+    padding: 0;
+    background: #fff;
+    font-weight: bold;
+}
+.title_tovar_general_info .kol-vo_tovar input[type="text"] {
+    appearance: none;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    font-weight: inherit;
+    width: 40px;
+    text-align: center;
+}
+.title_tovar_general_info .add_busket_tovar {
+    text-decoration: none !important;
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    background: #ffa800;
+    border-radius: 25px;
+    transition: all 0.2s ease-out 0s;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    -webkit-appearance: none;
+    min-width: 215px;
+    font-size: 22px;
+    font-family: "proximanovabold";
+    color: #fff;
+    padding: 10px 0px;
+}
+.title_tovar_general_info .cennik_info {
+    display: flex;
+    align-items: center;
+}
+.title_tovar_general_info .cennik_info .cena_info {
+    font-size: 37px;
+    font-family: "proximanovabold";
+}
+.title_tovar_general_info .cennik_info .info_cell {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000;
+    font-family: "proximanovalight";
+    margin-left: 25px;
+    max-width: 300px;
+}
+
+.title_tovar_general_info .cell_tovar_btn {
+    display: flex;
+    gap: 40px;
+}
+.napolnenie_tovar_general_info {
+    border: 1px #5db7b9 solid;
+    margin-bottom: 70px;
+}
+.napolnenie_tovar_general_info .title_napolnenie {
+    min-height: 84px;
+    background: #aedbdc;
+    border-top: 1px #97bebf solid;
+    box-shadow: inset 0px 6px 12px -10px rgba(0,0,0,0.40);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    font-size: 28px;
+    color: #fff;
+    font-family: "proximanovareg";
+    padding: 0 90px;
+}
+.napolnenie_tovar_general_info .table_napolnenie tr td {
+    padding-right: 30px;
+    text-align: center;
+}
+.napolnenie_tovar_general_info .table_napolnenie tr td.title_table_napolnenie {
+    font-size: 17px;
+    font-family: "proximanovareg";
+    font-weight: bold;
+}
+.napolnenie_tovar_general_info .table_napolnenie table  {
+    margin: 0 auto 50px;
+}
+td.title_table_napolnenie {
+    padding-top: 40px;
+}
+
+.cont_napolnenie .add_busket_tovar {
+    text-decoration: none !important;
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    background: #ffa800;
+    border-radius: 25px;
+    transition: all 0.2s ease-out 0s;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    -webkit-appearance: none;
+    min-width: 215px;
+    font-size: 22px;
+    font-family: "proximanovabold";
+    color: #fff;
+    width: 265px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.cont_napolnenie .subtitle_catalog {
+    font-size: 20px;
+    text-align: center;
+    font-family: "proximanovareg";
+}
+
+/* МОДАЛЬНОЕ ОКНО ДЛЯ ФОТО  */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 91022222222222222222222;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: calc(30% - 20px) !important;
+    height: calc(60% - 20px) !important;
+    top: 10px !important;
+    left: 10px !important;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(198, 32, 32);
+    text-decoration: none;
+    cursor: pointer;
+}
