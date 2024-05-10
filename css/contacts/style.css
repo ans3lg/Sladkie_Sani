@@ -2,17 +2,71 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+.cont_contacts h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    font-family: "proximanovareg";
+    font-weight: normal;
+    text-transform: none;
+    margin: 30px 0 70px;
+    padding: 0;
+}
+.cont_contacts h3 {
+    color: #357ca1;
+    font-size: 27px;
+    line-height: 1.3em;
+    margin-bottom: 27px;
+}
+.cont_contacts .mestopolojenie {
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: "proximanovareg";
+    margin: 0;
+}
+.cont_contacts .otdel_nomer {
+    font-size: 27px;
+    font-family: "proximanovareg";
+}
+.cont_contacts .otdel_nomer span {
+    font-size: 27px;
+    font-family: "proximanovareg";
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cont_contacts .otdel_nomer span:hover {
+    text-decoration: none;
+}
 iframe {
     width: 100%;
+    height: 700px;
     border: 1px solid #000;
     padding: 5px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 .cards_sotrudnik {
     display: flex;
-    gap: 50px;
+    gap: 30px;
+}
+.contacts_sotrudniki {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 80px;
 }
 .contacts_sotrudniki .photo_sotrudnika img{
     width: 175px;
     height: 175px;
     border-radius: 50%;
 }
+.contacts_sotrudniki .dannie_sotrudnika .kto_sotrudnik, 
+.contacts_sotrudniki .dannie_sotrudnika .tel_sotr, 
+.contacts_sotrudniki .dannie_sotrudnika .email_sotr
+{
+    color: #000;
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: "proximanovareg";
+    margin: 0;
+}
+
