@@ -1,0 +1,242 @@
+/* дус дус дус менгеле сы дус каефлее дисеее е курекле син дус \ жил да был чёрный кот за окном и кота ненавидел весь дом только песня совсем не о том как не ладили люууди с кот , целый день во дворе суета все ганяют с дороги кота , только песня совсем не о том как обиидна с котом, даже с кошкой своей за верству приходилось встречаться котц только песня со всем не о том как мурлыкала кошка с котом */
+
+hr {
+  margin: 0;
+  margin: 60px 0;
+}
+
+.about_container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.about_nav {
+  color: #545454;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.about_nav a {
+  color: #545454;
+}
+
+/* MAIN */
+
+.about_main_head h1 {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 50px;
+  line-height: 1.1;
+  font-family: "proximanovareg";
+  font-weight: normal;
+  text-transform: none;
+  padding: 0;
+}
+
+.about_main_head h2 {
+  color: #357ca1;
+  font-size: 27px;
+  line-height: 1.3em;
+  margin-bottom: 70px;
+  font-family: "proximanovareg";
+}
+
+.about_main_osnovatel {
+  display: flex;
+  max-width: 1035px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about_main_osnovatel_left {
+  margin-right: 45px;
+}
+
+.about_main_osnovatel_left img {
+  height: 210px;
+  width: 210px;
+}
+
+.about_main_osnovatel_right_fraza {
+  font-size: 19px;
+  font-style: italic;
+  line-height: 1.6em;
+  font-family: "proximanovareg";
+}
+
+.about_main_osnovatel_right_name {
+  color: #000;
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: "proximanovareg";
+}
+
+.about_eighteen_years_inf {
+  display: flex;
+  color: #000;
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: "proximanovareg";
+}
+
+.about_eighteen_years_left h1 {
+  color: #000;
+  font-size: 27px;
+  line-height: 1.3em;
+  font-family: "proximanovareg";
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 27px;
+}
+
+.about_eighteen_years_right {
+  background-color: #e8f5fb;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.about_eighteen_years_right p {
+  font-size: 19px;
+  font-style: italic;
+  line-height: 1.6em;
+}
+
+.about_eighteen_years_doc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.about_doc {
+  width: 18.5%;
+}
+
+.about_doc img {
+  width: 100%;
+}
+
+.about_doc p {
+  font-size: 13px;
+  line-height: 1.3em;
+  font-family: "proximanovareg";
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+/* Следим за качеством подарков */
+
+.about_kachestvo_card {
+  display: flex;
+}
+
+.about_kachestvo_left {
+  width: 230px;
+  margin-right: 63px;
+}
+
+.about_kachestvo_left p {
+  margin-top: 20px;
+  font-family: "proximanovareg";
+  font-size: 13px;
+  line-height: 1.3em;
+}
+
+.about_kachestvo_left img {
+  width: 230px;
+}
+
+.about_kachestvo_right_text p {
+  font-family: "proximanovareg";
+  font-weight: 500;
+}
+
+.about_kachestvo_right_icons {
+  margin-top: 43px;
+}
+
+/* Доставляем новогодние подарки по всей России */
+
+.about_dostavka {
+  display: flex;
+  align-items: center;
+  margin: 43px 0;
+  gap: 45px;
+}
+
+.about_dostavka_left p {
+  margin: 0;
+  color: #000;
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: "proximanovareg";
+}
+
+.about_dostavka_left h1 {
+  color: #000;
+  font-size: 27px;
+  line-height: 1.3em;
+  font-family: "proximanovareg";
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 27px;
+}
+
+.about_dostavka_left p {
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+
+/* Волшебство производства подарков */
+
+.about_proizvodstvo h1 {
+  color: #000;
+  font-size: 27px;
+  line-height: 1.3em;
+  text-align-last: left;
+  font-family: "proximanovareg";
+  font-weight: 600;
+}
+
+.about_proizvodstvo_text {
+  display: flex;
+  gap: 64px;
+  margin-bottom: 100px;
+}
+
+.about_proizvodstvo_left {
+  width: 45%;
+}
+
+.about_proizvodstvo_right {
+  width: 50%;
+}
+
+.about_proizvodstvo_left p,
+.about_proizvodstvo_right p {
+  color: #000;
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: "proximanovareg";
+}
+
+.about_proizvodstvo_photo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.about_proizvodstvo_photo_item img{
+    width: 410px;
+    height: 295px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about_proizvodstvo{
+    margin-bottom: 124px;
+}
