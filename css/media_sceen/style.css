@@ -1,0 +1,252 @@
+/* HEADER */
+
+@media screen and (max-width: 1365px) {
+    .header2_bann1 {
+        display: none;
+    }
+    .category_container {
+        max-width: 980px;
+    }
+    .index_head_title h1 {
+        font-size: 80px;
+    }
+}
+.btn_media_header {
+    display: none;
+}
+.menu nav{
+    display: none;
+}
+@media screen and (max-width: 1023px) {
+    .header2 {
+        display: none;
+    }
+    .header_1_menu {
+        display: none;
+    }
+    .btn_media_header {
+        display: block;
+    }
+    .btn_media_header svg{
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    /* Стили для меню */
+    .menu {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        width: 300px;
+        height: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+        transition: left 0.3s ease;
+    }
+    .menu nav {
+        display: block;
+    }
+    .menu-header {
+        padding: 10px;
+        background-color: #f0f0f0;
+    }
+    
+    .btn_close_menu {
+        cursor: pointer;
+    }
+    
+    .menu nav {
+        padding: 20px;
+    }
+    
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    .menu ul li {
+        padding: 10px 0;
+    }
+    
+    .menu ul li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+    }
+    
+    .menu.active {
+        left: 0;
+    }
+}
+
+/* HEADER конец */
+@media screen and (max-width: 1725px) {
+    /* .index_head_title h1 {
+        font-size: 110px;
+    } */
+}
+@media screen and (max-width: 1625px) {
+    /* ПОЧЕМУ МЫ why we */
+
+.why_we_container {
+    margin-top: 170px;
+    /* margin-bottom: 65px; */
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .why_we {
+    flex: 1;
+  }
+  
+  .why_we_cont {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .left_block {
+    flex: 1;
+  }
+  
+  .right_block {
+    width: 700px;
+    margin-left: 70px;
+  }
+  
+  .right_block img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+  }
+  
+  .left_block h1 {
+    padding-top: 35px;
+    font-size: 35px;
+    line-height: 1.1;
+    font-family: "proximanovareg";
+  }
+  
+  .mini_blocks {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .mini_block {
+    margin: 30px 0 30px 0;
+    width: 295px;
+    will-change: transform;
+  }
+  
+  .mini_block_image {
+    text-align: center;
+    min-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mini_block_image img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+  }
+  
+  .mini_block_text p {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: "proximanovareg";
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1365px) {
+    /* ПОЧЕМУ МЫ why we */
+
+.why_we_container {
+    margin-top: 170px;
+    /* margin-bottom: 65px; */
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .why_we {
+    flex: 1;
+  }
+  
+  .why_we_cont {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .left_block {
+    flex: 1;
+  }
+  
+  .right_block {
+    width: 605px;
+    margin-left: 70px;
+  }
+  
+  .right_block img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+  }
+  
+  .left_block h1 {
+    padding-top: 35px;
+    font-size: 35px;
+    line-height: 1.1;
+    font-family: "proximanovalight";
+  }
+  
+  .mini_blocks {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .mini_block {
+    width: 308px;
+    will-change: transform;
+    display: flex;  
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+  
+  .mini_block_image {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mini_block_image img {
+    width: 60px;
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+  }
+  
+  .mini_block_text p {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: "proximanovalight";
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1292px) {
+    .why_we_cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
